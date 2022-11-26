@@ -1,4 +1,17 @@
 {
+"users":[
+    {
+      "id": 1,
+      "name": "Werley Brito",
+      "email": "dj@werley.com",
+      "xp": 0
+    }
+
+    
+],
+
+
+
   "categories": [
     {
       "id": 1,
