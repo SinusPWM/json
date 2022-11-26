@@ -6,7 +6,7 @@ const middlewares = jsonServer.defaults();
 
 const port = process.env.PORT || 8080;
 
-server.use.apply(middlewares);
+server.use(middlewares);
 server.use(router);
 server.listen(port, () =>{
     console.log(`json server is running on ${port}`);
